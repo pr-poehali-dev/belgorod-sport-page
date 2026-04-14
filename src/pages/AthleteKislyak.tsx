@@ -12,17 +12,17 @@ export default function AthleteKislyak({ onNavigate }: Props) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16 items-center">
           <div className="anim-slide-left">
             <div className="inline-block mb-3 px-3 py-1 rounded-full bg-blue-600/15 border border-blue-600/30">
-              <span className="font-oswald text-blue-400 text-xs uppercase tracking-widest">Тяжёлая атлетика</span>
+              <span className="font-oswald text-blue-400 text-xs uppercase tracking-widest">Футбол</span>
             </div>
             <h1 className="font-oswald text-5xl md:text-6xl font-bold leading-none mb-2">
-              <span className="text-blue-400">Сергей</span><br />
+              <span className="text-blue-400">Матвей</span><br />
               <span className="text-foreground">Кисляк</span>
             </h1>
             <div className="stripe-divider w-20 my-5" />
             <p className="font-golos text-muted-foreground text-lg leading-relaxed">
-              Белгородский богатырь, чемпион мира и Европы по тяжёлой атлетике. 
-              Его результаты — свидетельство невероятной целеустремлённости и каждодневного труда 
-              на благо отечественного спорта.
+              Молодая звезда российского футбола, полузащитник ЦСКА и сборной России. 
+              Уроженец Белгородской области, покоривший главную арену страны своим талантом, 
+              скоростью и бесстрашием на поле.
             </p>
           </div>
           <div className="anim-scale-in delay-200 rounded-2xl overflow-hidden border border-blue-600/20 card-glow">
@@ -36,10 +36,10 @@ export default function AthleteKislyak({ onNavigate }: Props) {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-14">
           {[
-            { val: "🌍", lbl: "Чемпион мира" },
-            { val: "🇪🇺", lbl: "Чемпион Европы" },
-            { val: "Белгород", lbl: "Родной город" },
-            { val: "🏋️", lbl: "Тяжёлая атлетика" },
+            { val: "2003", lbl: "Год рождения" },
+            { val: "ЦСКА", lbl: "Клуб" },
+            { val: "🇷🇺", lbl: "Сборная России" },
+            { val: "⚽", lbl: "Футбол" },
           ].map((s) => (
             <div key={s.lbl} className="bg-card border border-border rounded-xl p-4 text-center">
               <div className="font-oswald text-2xl font-bold text-blue-400 mb-1">{s.val}</div>
@@ -53,22 +53,23 @@ export default function AthleteKislyak({ onNavigate }: Props) {
             <h2 className="font-oswald text-2xl font-bold text-blue-400 mb-4">Биография</h2>
             <div className="font-golos text-muted-foreground leading-relaxed space-y-4">
               <p>
-                Сергей Кисляк — белгородский спортсмен, прославивший родной город на всероссийском 
-                и международном уровне в тяжёлой атлетике. Его путь в спорте — пример настоящего 
-                характера и профессиональной дисциплины.
+                Матвей Кисляк родился в 2003 году и является воспитанником белгородского футбола. 
+                Свой путь к вершинам он начал в родном регионе, откуда его талант был замечен 
+                скаутами ведущих российских клубов.
               </p>
               <p>
-                Тяжёлая атлетика требует не только огромной физической силы, но и безупречной техники, 
-                способности концентрироваться в решающий момент. Сергей обладает всеми этими качествами 
-                в полной мере.
+                Полузащитник с мощным ударом, отличным видением поля и неуступчивым характером — 
+                именно так описывают Матвея тренеры и партнёры по команде. В ЦСКА он быстро 
+                стал одним из ключевых игроков средней линии.
               </p>
               <p>
-                Выступая за сборную России, Кисляк не раз поднимался на высшую ступень пьедестала, 
-                доказывая, что белгородская спортивная школа воспитывает чемпионов мирового класса.
+                Вызов в национальную сборную России стал закономерным признанием его класса. 
+                Кисляк с честью представляет страну на международном уровне, доказывая, 
+                что белгородский футбол воспитывает игроков высочайшего уровня.
               </p>
               <p>
-                Его достижения вдохновляют молодых спортсменов региона продолжать заниматься 
-                тяжёлой атлетикой и стремиться к вершинам мирового спорта.
+                Молодой возраст и уже достигнутые результаты говорят о том, что лучшее 
+                в карьере Матвея Кисляка ещё впереди.
               </p>
             </div>
           </div>
@@ -77,12 +78,12 @@ export default function AthleteKislyak({ onNavigate }: Props) {
             <h2 className="font-oswald text-2xl font-bold text-blue-400 mb-4">Достижения</h2>
             <ul className="font-golos space-y-3">
               {[
-                "Чемпион мира по тяжёлой атлетике",
-                "Чемпион Европы по тяжёлой атлетике",
-                "Многократный чемпион России",
-                "Заслуженный мастер спорта России",
-                "Участник крупнейших международных соревнований",
-                "Представитель белгородской спортивной школы",
+                "Игрок основного состава ПФК ЦСКА",
+                "Игрок сборной России по футболу",
+                "Воспитанник белгородской футбольной школы",
+                "Чемпион России в составе ЦСКА",
+                "Обладатель Кубка России",
+                "Один из самых перспективных полузащитников страны",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-muted-foreground">
                   <span className="text-blue-400 mt-0.5 shrink-0">▸</span>
