@@ -37,10 +37,11 @@ export default function AuthorPage({ onNavigate }: Props) {
             <h2 className="font-oswald text-xl font-bold text-primary mb-6">Информация об авторе</h2>
             <div className="space-y-4">
               {[
-                { icon: "📝", label: "Имя", value: "Укажите ваше имя" },
-                { icon: "🎓", label: "Учебное заведение", value: "Укажите школу / вуз" },
+                { icon: "📝", label: "Имя", value: "Шабатура Василий" },
+                { icon: "🎓", label: "Учебное заведение", value: "Школа №2, г. Строитель" },
+                { icon: "📚", label: "Класс", value: "11Б" },
                 { icon: "📅", label: "Год создания", value: "2026" },
-                { icon: "📍", label: "Город", value: "Белгород" },
+                { icon: "📍", label: "Город", value: "Строитель, Белгородская область" },
               ].map((item) => (
                 <div key={item.label} className="flex items-center gap-4 py-3 border-b border-border last:border-0">
                   <span className="text-2xl">{item.icon}</span>
