@@ -28,7 +28,7 @@ export default function AthleteShved({ onNavigate }: Props) {
           </div>
           <div className="anim-scale-in delay-200 rounded-2xl overflow-hidden border border-orange-500/20 card-glow">
             <img
-              src="https://cdn.poehali.dev/projects/15e1d2fc-9f54-427a-b725-1847b7fc302f/files/4b18e78e-ee18-4bd8-92bc-2f0f1ef02ff1.jpg"
+              src="https://cdn.poehali.dev/files/2990183d-e4be-4ee3-97be-6b78f5727d32.png"
               alt="Алексей Швед"
               className="w-full h-72 object-cover"
             />

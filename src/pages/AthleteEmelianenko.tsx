@@ -26,7 +26,7 @@ export default function AthleteEmelianenko({ onNavigate }: Props) {
           </div>
           <div className="anim-scale-in delay-200 rounded-2xl overflow-hidden border border-red-600/20 card-glow">
             <img
-              src="https://cdn.poehali.dev/projects/15e1d2fc-9f54-427a-b725-1847b7fc302f/files/4b549ae6-5eb8-4efe-8a63-07312f8d3612.jpg"
+              src="https://cdn.poehali.dev/files/4cc8a73f-c197-4aaa-b2ea-3eecfb9c747d.png"
               alt="Фёдор Емельяненко"
               className="w-full h-72 object-cover"
             />

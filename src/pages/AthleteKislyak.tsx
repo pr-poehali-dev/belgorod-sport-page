@@ -27,8 +27,8 @@ export default function AthleteKislyak({ onNavigate }: Props) {
           </div>
           <div className="anim-scale-in delay-200 rounded-2xl overflow-hidden border border-blue-600/20 card-glow">
             <img
-              src="https://cdn.poehali.dev/projects/15e1d2fc-9f54-427a-b725-1847b7fc302f/files/74db247e-e94f-4040-b76d-65434abf1682.jpg"
-              alt="Сергей Кисляк"
+              src="https://cdn.poehali.dev/files/583e7f5b-9bbf-4483-9ebb-15d712fd9f0c.png"
+              alt="Матвей Кисляк"
               className="w-full h-72 object-cover"
             />
           </div>

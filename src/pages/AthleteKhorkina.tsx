@@ -26,7 +26,7 @@ export default function AthleteKhorkina({ onNavigate }: Props) {
           </div>
           <div className="anim-scale-in delay-200 rounded-2xl overflow-hidden border border-yellow-500/20 card-glow">
             <img
-              src="https://cdn.poehali.dev/projects/15e1d2fc-9f54-427a-b725-1847b7fc302f/files/00afe512-570c-4fd9-b908-5bed5583e4fe.jpg"
+              src="https://cdn.poehali.dev/files/26aeb608-6c37-4cf7-9f39-092cbf714578.png"
               alt="Светлана Хоркина"
               className="w-full h-72 object-cover"
             />
